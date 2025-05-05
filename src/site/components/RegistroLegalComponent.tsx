@@ -128,7 +128,7 @@ export const RegistroLegalComponent = () => {
                                     width: '100%',
                                     display: { md: 'none', sm: 'block' },
                                     margin: '0 auto',
-                                    maxWidth: { md: 800, sm: '100%' },
+                                    maxWidth: { md: '800px', sm: '100%' },
                                     height: '100%',
                                     objectFit: 'cover'
                                 }}

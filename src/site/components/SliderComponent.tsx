@@ -54,16 +54,7 @@ export const SliderComponent = () => {
                                 >
                                     <Typography
                                         variant="h2"
-                                        sx={{
-                                            color: '#133072'
-                                            ,fontSize: '45px'
-                                            ,fontWeight: '600'
-                                            ,'& span': {
-                                                background: "#133072"
-                                                ,color: "#ffffff"
-                                                ,padding: "0 5px"
-                                            }
-                                        }}
+                                        className="titleSlider"
                                     >
                                         Estás a punto de iniciar un viaje hacia el universo <br />de la <span>educación digital</span>
                                     </Typography>
@@ -76,6 +67,7 @@ export const SliderComponent = () => {
                                         ,borderBottomLeftRadius: "15px"
                                         ,borderBottomRightRadius: "15px"
                                     }}
+                                    className="imgLogoSlider"
                                 >
                                     <img src={ imgLogoMainSlider } alt="" />                                    
                                 </Grid>

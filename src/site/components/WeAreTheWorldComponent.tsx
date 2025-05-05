@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button, styled, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid';
 
 import imgMap from '../img/map.png';
@@ -31,6 +31,30 @@ const profesorBtn = {
     borderRadius: '10px',
 };
 
+const StyledTitle = styled(Typography)(({ theme }) => ({
+    fontWeight: 600,
+    color: '#133072',
+    display: 'block',
+    marginBottom: theme.spacing(2),
+    fontSize: '30px',
+  
+    [theme.breakpoints.up('md')]: {
+      display: 'none',
+      fontSize: '50px',
+    },
+}));
+
+const StyledDesktopTitle = styled(Typography)(({ theme }) => ({
+    fontWeight: 600,
+    fontSize: '35px',
+    color: '#133072',
+    display: 'none',
+  
+    [theme.breakpoints.up('md')]: {
+      display: 'block',
+    },
+}));
+
 export const WeAreTheWorldComponent = () => {
     return (
         <>
@@ -46,18 +70,9 @@ export const WeAreTheWorldComponent = () => {
                     <Grid container spacing={4}>
 
                         <Grid size={{ xs: 12, md: 8, xl: 9 }} order={{ xs: 0, md: 2 }} textAlign="center">
-                            <Typography
-                                variant="h2"
-                                sx={{
-                                    fontWeight: 600,
-                                    fontSize: { xs: '40px', md: '50px' },
-                                    color: '#133072',
-                                    display: { xs: 'block', md: 'none' },
-                                    marginBottom: 2,
-                                }}
-                            >
+                            <StyledTitle variant="h2">
                                 Somos <br /> del mundo
-                            </Typography>
+                            </StyledTitle>
 
                             {/* Botones */}
                             <Box mb={4} className="btnGroup">
@@ -81,17 +96,9 @@ export const WeAreTheWorldComponent = () => {
                             display="flex"
                             flexDirection="column"
                         >
-                            <Typography
-                                variant="h2"
-                                sx={{
-                                    fontWeight: 600,
-                                    fontSize: '35px',
-                                    color: '#133072',
-                                    display: { xs: 'none', md: 'block' },
-                                }}
-                            >
+                            <StyledDesktopTitle variant="h2">
                                 Somos <br /> del mundo
-                            </Typography>
+                            </StyledDesktopTitle>
 
                             <Box sx={{ background: { xs: '#F90052', sm: '#F90052', md: '#FF4E07'}, borderRadius: 1 }}>
                                 <Typography sx={{ color: '#fff', p: 3, fontSize: '15px', lineHeight: '115%' }}>

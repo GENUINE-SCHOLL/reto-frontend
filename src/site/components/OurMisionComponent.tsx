@@ -20,7 +20,6 @@ export const OurMisionComponent = () => {
                     }}
                 >
                     <Grid container spacing={ 3 }>
-
                         <Grid
                             size={ 12 }
                         >
@@ -32,11 +31,12 @@ export const OurMisionComponent = () => {
                                     width: '100%',
                                     display: 'block',
                                     margin: '0 auto',
-                                    maxWidth: 800
+                                    maxWidth: '800px'
                                 }}
                             />
                             <Typography
                                 variant='h2'
+                                className="titleOurMision"
                                 sx={{                                    
                                     fontWeight: 600
                                     ,fontSize: '52px'
@@ -90,14 +90,7 @@ export const OurMisionComponent = () => {
                                     />
                                     <Typography
                                         variant='h3'
-                                        sx={{                                    
-                                            fontWeight: 700
-                                            ,fontSize: '35px'
-                                            ,lineHeight: '100%'
-                                            ,letterSpacing: '0%'
-                                            ,color: '#133072'
-                                            ,margin: '15px 0'
-                                        }}
+                                        className="subtitleMision"
                                     >
                                         Nuestra misión
                                     </Typography>
@@ -131,7 +124,7 @@ export const OurMisionComponent = () => {
                                     ,marginRight: '100px'
                                     ,display: 'flex'
                                     ,flexDirection: 'column',
-                                    justifyContent: 'space-between' // opcional, para balancear
+                                    justifyContent: 'space-between'
                                 }}
                             >
                                 <Grid size={ 12 }>
@@ -142,20 +135,13 @@ export const OurMisionComponent = () => {
                                         sx={{
                                             width: '100%',
                                             display: 'block',
-                                            maxWidth: 70,
+                                            maxWidth: '70px',
                                             height: '65px'
                                         }}
                                     />
                                     <Typography
                                         variant='h3'
-                                        sx={{                                    
-                                            fontWeight: 700
-                                            ,fontSize: '35px'
-                                            ,lineHeight: '100%'
-                                            ,letterSpacing: '0%'
-                                            ,color: '#133072'
-                                            ,margin: '15px 0'
-                                        }}
+                                        className="subtitleMision"
                                     >
                                         Nuestra misión
                                     </Typography>

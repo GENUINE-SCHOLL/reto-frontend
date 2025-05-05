@@ -19,6 +19,8 @@ export const RegistroLegalComponent = () => {
                                 borderTopLeftRadius: '15px'
                                 ,borderBottomLeftRadius: '15px'
                                 ,background: "#ffffff"
+                                ,display: "flex"
+                                ,alignItems: "center"
                             }}
                         >
                             <Box
@@ -31,12 +33,7 @@ export const RegistroLegalComponent = () => {
                             >
                                 <Typography
                                     variant='h2'
-                                    sx={{                                    
-                                        fontWeight: 600
-                                        ,fontSize: '45px'
-                                        ,color: '#133072'
-                                        ,marginBottom: 3
-                                    }}
+                                    className="titleRegistroLegal"
                                 >
                                    ¿Quiénes Somos?
                                 </Typography>
@@ -56,21 +53,13 @@ export const RegistroLegalComponent = () => {
 
                                 <Button
                                     variant="text"
-                                    sx={{
-                                        fontWeight: 600
-                                        ,fontSize: '20px'
-                                        ,lineHeight: '105%'
-                                        ,letterSpacing: '0%'
-                                        ,color: '#133072'
-                                        ,textTransform: 'none'
-                                        ,textAlign: 'left'
-                                        ,paddingLeft: 0
-                                    }}
+                                    className="btnConsulta"
                                 >
                                     Consulta el registro legal aquí
                                 </Button>
                                 <Button
                                     variant="contained"
+                                    className="btnRegistro"
                                     sx={{
                                         marginLeft: 2
                                         ,background: '#133072'
@@ -102,7 +91,7 @@ export const RegistroLegalComponent = () => {
                         </Grid>
 
                         <Grid
-                            size={ { xs: 12,sm: 12, md: 6, xl: 6 } }
+                            size={ { xs: 12,sm: 12, md: 6, xl: 6 } }                            
                         >
                             <Box
                                 component="img"
@@ -112,7 +101,6 @@ export const RegistroLegalComponent = () => {
                                     width: '100%',
                                     display: { md: 'block', sm: 'none', xs: 'none'},
                                     margin: '0 auto',
-                                    maxWidth: 800,
                                     height: '100%',
                                     objectFit: 'cover',
                                     borderTopRightRadius: '15px',

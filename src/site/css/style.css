@@ -1,10 +1,67 @@
+.titleSlider{
+    color: #133072;
+    font-size: 45px !important;
+    font-weight: 600 !important;
+}
+.titleSlider span {
+    background: #133072;
+    color: #ffffff;
+    padding: 0 5px;
+}
+.imgLogoSlider{
+    background: #FFFFFF;
+    padding: 40px 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*************************************/
+.titleOurMision{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #133072;
+    margin-bottom: 5;
+}
+.subtitleMision {
+    font-weight: 700 !important;
+    font-size: 35px !important;
+    line-height: 100% !important;
+    letter-spacing: 0;
+    color: #133072;
+    margin: 15px 0;
+}
+/**************************************/
+.titleRegistroLegal{
+    font-weight: 600 !important;
+    font-size: 45px !important;
+    color: #133072;
+    margin-bottom: 15px!important;
+}
+.btnConsulta {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 105% !important;
+    letter-spacing: 0 !important;
+    color: #133072 !important;
+    text-transform: none !important;
+    text-align: left;
+    padding-left: 0;
+}
+.btnRegistro{
+    margin-left: 10px;
+    background: #133072;
+}
+/*************************************/
+
 .GridSideBarLeft{
     width: calc(100% - 400px);
 }
 .GridSideBarRight{
     width: 400px;
 }
-
 /********************************/
 @media (max-width: 1800px){
     .css-1lglv1i-MuiTypography-root{
@@ -57,7 +114,7 @@
     .css-ixddls-MuiTypography-root {
         font-size: 30px !important;
     }
-    .css-3mqns6-MuiGrid-root img {
+    .imgLogoSlider img {
         max-width: 300px !important;
         margin: 0 auto !important;
     }
@@ -85,7 +142,7 @@
         left: 1% !important;
         transform: none !important;
     }
-    .css-3mqns6-MuiGrid-root img {
+    .imgLogoSlider img {
         max-width: 200px !important;
         margin: 0 auto !important;
     }
@@ -101,15 +158,35 @@
     .css-hrqyxs{
         padding: 30px 15px !important;
     }
+    .titleSlider{
+        font-size: 25px !important;
+    }
+    .titleOurMision{
+        font-size: 25px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 10px !important;
+    }
+    .subtitleMision {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+    }
+    .titleRegistroLegal {
+        font-size: 25px !important;
+    }
+    .btnConsulta {
+        text-align: center !important;
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    .btnRegistro{
+        text-align: center !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
 }
 @media (max-width: 900px){
     .css-1lglv1i-MuiTypography-root{
         min-height: 100% !important;
-    }
-    .css-1vw3y1d-MuiTypography-root{
-        font-size: 25px !important;
-        line-height: 1.5 !important;
-        margin-bottom: 10px !important;
     }
     .css-1rmre48{
         display: none !important;

@@ -75,15 +75,7 @@ export const SliderComponent = () => {
                             
                             <Typography
                                 variant="h3"
-                                sx={{
-                                    color: "#ffffff"
-                                    ,fontSize: "35px"
-                                    ,fontWeight: "600"
-                                    ,position: "absolute"
-                                    ,bottom: "10px"
-                                    ,left: "50%"
-                                    ,transform: "translate(-50%, 0)"
-                                }}
+                                className="subtitleSlider"
                             >
                                 studyatgenuine.com
                             </Typography>

@@ -1,3 +1,11 @@
+.GridSideBarLeft{
+    width: calc(100% - 400px);
+}
+.GridSideBarRight{
+    width: 400px;
+}
+
+/********************************/
 @media (max-width: 1800px){
     .css-1lglv1i-MuiTypography-root{
         min-height: 200px !important;
@@ -56,10 +64,10 @@
 }
 /********************************************************/
 @media (max-width: 991px){
-    .css-6sn44r-MuiGrid-root {
-        width: calc(100%) !important;
+    .GridSideBarLeft{
+        width: 100% !important;
     }
-    .GridSideBar {
+    .GridSideBarRight {
        display: none !important;
     }
     .css-1lglv1i-MuiTypography-root{

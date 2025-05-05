@@ -14,10 +14,10 @@ export const LayoutPage = () => {
             >
                 <Box sx={{ padding: "15px",  background: "linear-gradient(162.54deg, rgba(213, 230, 247, 0) 75.27%, #D5ADFB 109.35%)" }}>
                     <Grid container spacing={2} sx={{ flexFlow: "row"}}>
-                        <Grid sx={{ width: "calc(100% - 400px)"}}>
+                        <Grid className="GridSideBarLeft">
                             <Outlet />
                         </Grid>
-                        <Grid sx={{ width: "400px"}} className="GridSideBar">
+                        <Grid className="GridSideBarRight">
                             <SideBar />
                         </Grid>
                     </Grid>

@@ -41,7 +41,7 @@ export const SideBar = () => {
                                 sx={{
                                     '& .MuiListItemText-root': {
                                         width: "100%"
-                                        , color: "#133072"
+                                        ,color: "#133072"
                                     },
                                     '& .MuiTypography-root': {
                                         fontWeight: "600"

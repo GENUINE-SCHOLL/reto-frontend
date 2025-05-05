@@ -23,7 +23,8 @@ export const RegistroLegalComponent = () => {
                         >
                             <Box
                                 sx={{
-                                    p: '30px 100px'
+                                    px: { xs: 2, sm: 4, md: 8, lg: 10 }
+                                    ,py: 4
                                     ,borderTopLeftRadius: '15px'
                                     ,borderBottomLeftRadius: '15px'
                                     ,background: "#ffffff"

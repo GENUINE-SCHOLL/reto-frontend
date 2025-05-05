@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     padding: 0;
@@ -7,4 +13,5 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    overflow: hidden;
 }

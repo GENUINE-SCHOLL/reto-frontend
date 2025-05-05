@@ -17,7 +17,7 @@ export const LayoutPage = () => {
                         <Grid sx={{ width: "calc(100% - 400px)"}}>
                             <Outlet />
                         </Grid>
-                        <Grid sx={{ width: "400px"}}>
+                        <Grid sx={{ width: "400px"}} className="GridSideBar">
                             <SideBar />
                         </Grid>
                     </Grid>

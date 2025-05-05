@@ -1,0 +1,159 @@
+@media (max-width: 1800px){
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 200px !important;
+    }
+}
+
+@media (max-width: 1500px){
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 230px !important;
+    }
+}
+
+@media (max-width: 1420px){
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 350px !important;
+    }
+}
+@media (max-width: 1260px){
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 430px !important;
+    }
+    .css-1k904za {
+        margin-left: 50px !important;
+    }
+    .css-12y0xd0 {
+        margin-right: 50px !important;
+    }
+    .css-5qi45n-MuiGrid-root{
+        padding: 30px 50px !important;
+    }
+    .css-1n74u3p{
+        padding: 30px 50px !important;
+    }
+    .css-hrqyxs{
+        padding: 30px 50px !important;
+    }
+}
+
+@media (max-width: 1200px){
+    .css-6sn44r-MuiGrid-root {
+        width: calc(100% - 300px) !important;
+    }
+    .css-orxq4d-MuiGrid-root {
+        width: 300px !important;
+    }
+    .css-xmrpdm {
+        width: 450px !important;
+    }
+    .css-ixddls-MuiTypography-root {
+        font-size: 30px !important;
+    }
+    .css-3mqns6-MuiGrid-root img {
+        max-width: 300px !important;
+        margin: 0 auto !important;
+    }
+}
+/********************************************************/
+@media (max-width: 991px){
+    .css-6sn44r-MuiGrid-root {
+        width: calc(100%) !important;
+    }
+    .css-orxq4d-MuiGrid-root {
+       display: none !important;
+    }
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 300px !important;
+    }
+    .css-1k904za{
+        margin-left: 0 !important;
+    }
+    .css-12y0xd0 {
+        margin-right: 0 !important;
+    }
+    .css-xmrpdm {
+        width: 98% !important;
+        top: 10px !important;
+        left: 1% !important;
+        transform: none !important;
+    }
+    .css-3mqns6-MuiGrid-root img {
+        max-width: 200px !important;
+        margin: 0 auto !important;
+    }
+    .css-65opae {
+        max-width: 100% !important;
+        border-top-right-radius: 0 !important;
+    }
+    .css-1n74u3p{
+        padding: 30px 15px !important;
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 15px !important;
+    }
+    .css-hrqyxs{
+        padding: 30px 15px !important;
+    }
+}
+@media (max-width: 900px){
+    .css-1lglv1i-MuiTypography-root{
+        min-height: 100% !important;
+    }
+    .css-1vw3y1d-MuiTypography-root{
+        font-size: 25px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 10px !important;
+    }
+    .css-1rmre48{
+        display: none !important;
+    }
+    .css-1fy0qzd {
+        display: block !important;
+    }
+    .css-2n9j5h {
+        padding: 30px 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .css-1hyfx7x {
+        display: block !important;
+        width: 100%!important;
+        height: 350px!important;
+    }
+    .css-5ts9n9-MuiTypography-root{
+        font-size: 18px !important;
+    }
+    .css-ixddls-MuiTypography-root {
+        font-size: 25px !important;
+    }
+    .css-1ntkjxx-MuiTypography-root{
+        font-size: 30px !important;
+    }
+    .css-1qlt792-MuiButtonBase-root-MuiButton-root {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    .css-146a7k-MuiButtonBase-root-MuiButton-root{
+        width: 100% !important;
+        max-width: 250px !important;
+        margin: 0 auto !important;
+        display: block !important;
+        padding: 20px !important;
+    }
+    .css-8y4std-MuiTypography-root{
+        display: none !important;
+    }
+    .btnGroup button{
+        width: 100% !important;
+        max-width: 350px !important;
+        margin: 0 auto !important;
+        display: block !important;
+        padding: 30px 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .css-1ajqz91-MuiTypography-root{
+        width: 100% !important;
+        max-width: 350px !important;
+        margin: 0 auto !important;
+        text-align: left !important;
+        margin-bottom: 15px !important;
+    }
+}

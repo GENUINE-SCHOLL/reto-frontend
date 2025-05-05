@@ -23,8 +23,7 @@ export const RegistroLegalComponent = () => {
                         >
                             <Box
                                 sx={{
-                                    px: { xs: 2, sm: 4, md: 8, lg: 10 }
-                                    ,py: 4
+                                    padding: '30px 100px'
                                     ,borderTopLeftRadius: '15px'
                                     ,borderBottomLeftRadius: '15px'
                                     ,background: "#ffffff"
@@ -36,7 +35,7 @@ export const RegistroLegalComponent = () => {
                                         fontWeight: 600
                                         ,fontSize: '45px'
                                         ,color: '#133072'
-                                        ,mb: 3
+                                        ,marginBottom: 3
                                     }}
                                 >
                                    ¿Quiénes Somos?
@@ -49,7 +48,7 @@ export const RegistroLegalComponent = () => {
                                         ,fontSize: '22px'
                                         ,letterSpacing: '0%'
                                         ,color: '#133072'
-                                        ,mb: 3
+                                        ,marginBottom: 3
                                     }}
                                 >
                                     Nuestro colegio digital privado está constituido y registrado en Estados Unidos ante el <b>Florida Department of Education con el código 8822.</b> 
@@ -65,7 +64,7 @@ export const RegistroLegalComponent = () => {
                                         ,color: '#133072'
                                         ,textTransform: 'none'
                                         ,textAlign: 'left'
-                                        ,pl: 0
+                                        ,paddingLeft: 0
                                     }}
                                 >
                                     Consulta el registro legal aquí
@@ -73,7 +72,7 @@ export const RegistroLegalComponent = () => {
                                 <Button
                                     variant="contained"
                                     sx={{
-                                        ml: 2
+                                        marginLeft: 2
                                         ,background: '#133072'
                                     }}
                                 >
@@ -87,8 +86,8 @@ export const RegistroLegalComponent = () => {
                                         ,width: '100%'
                                         ,maxWidth: '400px'
                                         ,display: { xs: 'block', sm: 'block', md: 'none'}
-                                        ,m: '0 auto'
-                                        ,mt: 3
+                                        ,margin: '0 auto'
+                                        ,marginTop: 3
                                         ,color: '#133072'
                                         ,fontWeight: 600
                                         ,fontSize: '18px'
@@ -97,7 +96,7 @@ export const RegistroLegalComponent = () => {
                                 >
                                     Mira como encontrar el <br />
                                     registro legal de <b>Genuine</b>
-                                    <PlayCircleIcon sx={{ display: 'block', m: '0 auto', fontSize: '60px', color: "#ffffff" }}/>
+                                    <PlayCircleIcon sx={{ display: 'block', margin: '0 auto', fontSize: '60px', color: "#ffffff" }}/>
                                 </Button>
                             </Box>
                         </Grid>

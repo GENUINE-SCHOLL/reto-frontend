@@ -53,7 +53,7 @@ export const WeAreTheWorldComponent = () => {
                                     fontSize: { xs: '40px', md: '50px' },
                                     color: '#133072',
                                     display: { xs: 'block', md: 'none' },
-                                    mb: 2,
+                                    marginBottom: 2,
                                 }}
                             >
                                 Somos <br /> del mundo
@@ -69,7 +69,7 @@ export const WeAreTheWorldComponent = () => {
                             {/* Imagen del mapa */}
                             <Box
                                 component="img"
-                                src={imgMap}
+                                src={ imgMap }
                                 alt="Mapa mundial"
                                 sx={{ width: '100%', maxWidth: '100%' }}
                             />

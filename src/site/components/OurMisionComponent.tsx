@@ -13,10 +13,10 @@ export const OurMisionComponent = () => {
                     sx={{
                         background: 'linear-gradient(180deg, #D5E6F7 0%, #FFFFFF 37.5%)'
                         ,padding: '80px 0'
-                        ,pb: '150px'
+                        ,paddingBottom: '150px'
                         ,borderRadius: '15px'
-                        ,mt: 4
-                        ,mb: 4
+                        ,marginTop: 4
+                        ,marginBottom: 4
                     }}
                 >
                     <Grid container spacing={ 3 }>
@@ -45,7 +45,7 @@ export const OurMisionComponent = () => {
                                     ,textAlign: 'center'
                                     ,verticalAlign: 'middle'
                                     ,color: '#133072'
-                                    ,mb: 5
+                                    ,marginBottom: 5
                                 }}
                             >
                                 Nuestra misión en el mundo y lo que soñamos <br /> para tus hijos
@@ -73,7 +73,7 @@ export const OurMisionComponent = () => {
                                     ,paddingBottom: '25px'
                                     ,paddingLeft: '30px'
                                     ,borderWidth: '3px'
-                                    ,ml: '100px'
+                                    ,marginLeft: '100px'
                                 }}
                             >
                                 <Grid size={ 12 }>
@@ -128,7 +128,7 @@ export const OurMisionComponent = () => {
                                     ,paddingBottom: '25px'
                                     ,paddingLeft: '30px'
                                     ,borderWidth: '3px'
-                                    ,mr: '100px'
+                                    ,marginRight: '100px'
                                     ,display: 'flex'
                                     ,flexDirection: 'column',
                                     justifyContent: 'space-between' // opcional, para balancear
